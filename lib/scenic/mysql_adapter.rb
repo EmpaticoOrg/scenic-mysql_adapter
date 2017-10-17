@@ -1,7 +1,3 @@
-require "scenic/mysql_adapter/version"
-
-module Scenic
-  module MysqlAdapter
-    # Your code goes here...
-  end
-end
+require 'active_record'
+require 'scenic'
+require_relative 'mysql_adapter/version'

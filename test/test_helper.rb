@@ -4,7 +4,6 @@ require "scenic/mysql_adapter"
 require "minitest/autorun"
 
 # establish the database connection
-require "active_record"
 ActiveRecord::Base.establish_connection(
   ENV['DATABASE_URL'] || 'mysql2://root@localhost/scenic_mysql_adapter_test'
 )
