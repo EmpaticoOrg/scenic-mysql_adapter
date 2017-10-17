@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require "scenic/mysql_adapter"
+require "irb"
+
+IRB.start(__FILE__)
