@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["lance@cainlevy.net"]
 
   spec.summary       = %q{MySQL adapter for thoughtbot/scenic}
-  spec.homepage      = "https://github.com/empaticoorg/scenic-mysql_adapter"
+  spec.homepage      = "https://github.com/EmpaticoOrg/scenic-mysql_adapter"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
