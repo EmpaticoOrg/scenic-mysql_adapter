@@ -22,7 +22,7 @@ Then create the following file:
 # config/initializers/scenic.rb
 
 Scenic.configure do |config|
-  config.database = Scenic::MySQL::Adapter
+  config.database = Scenic::Adapters::MySQL.new
 end
 ```
 
