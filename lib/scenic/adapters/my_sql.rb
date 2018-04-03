@@ -87,7 +87,7 @@ module Scenic
         execute("SHOW CREATE VIEW #{quote_table_name(name)}")
           .first[1]
           .sub(/\A.*#{quote_table_name(name)} AS /i, '')
-          .gsub(/#{quote_table_name(@connectable.connection.current_database)}\./, '')
+          .gsub(/(\s|\(|,)#{quote_table_name(@connectable.connection.current_database)}\./, '\1')
       end
     end
   end
