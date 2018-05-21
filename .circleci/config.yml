@@ -12,4 +12,5 @@ jobs:
     steps:
       - checkout
       - run: bin/setup
-      - run: rake test
+      - run: appraisal install
+      - run: appraisal rake test
