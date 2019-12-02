@@ -1,5 +1,4 @@
 appraise "rails-42" do
-  gem "mysql2", "0.4.4"
   gem "activerecord", "~> 4.2", "< 5.0"
   gem "activemodel", "~> 4.2", "< 5.0"
   gem "actionpack", "~> 4.2", "< 5.0"
@@ -14,7 +13,6 @@ appraise "rails-50" do
 end
 
 appraise "rails-51" do
-  gem "mysql2", "0.4.4"
   gem "activerecord", "~> 5.1", "< 5.2"
   gem "activemodel", "~> 5.1", "< 5.2"
   gem "actionpack", "~> 5.1", "< 5.2"
