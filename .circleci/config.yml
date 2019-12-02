@@ -4,7 +4,7 @@ jobs:
   build:
     working_directory: ~/mysql_point
     docker:
-      - image: circleci/ruby:2.4
+      - image: circleci/ruby:2.5
         environment:
           DATABASE_URL: mysql2://root@127.0.0.1/circle_test
       - image: circleci/mysql:5.7
