@@ -25,3 +25,10 @@ appraise "rails-52" do
   gem "actionpack", "~> 5.2"
   gem "activesupport", "~> 5.2"
 end
+
+appraise "rails-60" do
+  gem "activerecord", "~> 6.0"
+  gem "activemodel", "~> 6.0"
+  gem "actionpack", "~> 6.0"
+  gem "activesupport", "~> 6.0"
+end
