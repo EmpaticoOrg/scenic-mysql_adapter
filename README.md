@@ -2,7 +2,7 @@
 
 MySQL adapter for [scenic](https://github.com/thoughtbot/scenic).
 
-[![Gem](https://img.shields.io/gem/v/scenic-mysql_adapter.svg)](https://rubygems.org/gems/scenic-mysql_adapter)[![master branch](https://img.shields.io/circleci/project/github/EmpaticoOrg/scenic-mysql_adapter.svg)](https://circleci.com/gh/EmpaticoOrg/scenic-mysql_adapter/tree/master)
+[![Gem](https://img.shields.io/gem/v/scenic-mysql_adapter.svg)](https://rubygems.org/gems/scenic-mysql_adapter)[![master branch](https://github.com/EmpaticoOrg/scenic-mysql_adapter/actions/workflows/CI.yml/badge.svg)](https://github.com/EmpaticoOrg/scenic-mysql_adapter/actions/workflows/CI.yml)
 
 ## Installation
 
